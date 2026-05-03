@@ -9,9 +9,16 @@
     "sourceMap": true,
     "baseUrl": ".",
     "paths": {
-      "@bridgerpc/core": ["packages/core/src/index.ts"],
-      "@bridgerpc/schema": ["packages/schema/src/index.ts"],
-      "@bridgerpc/compiler": ["packages/compiler/src/index.ts"]
-    }
+      "@bridgerpc/core": [
+        "packages/core/src/index.ts"
+      ],
+      "@bridgerpc/schema": [
+        "packages/schema/src/index.ts"
+      ],
+      "@bridgerpc/compiler": [
+        "packages/compiler/src/index.ts"
+      ]
+    },
+    "ignoreDeprecations": "6.0"
   }
 }
