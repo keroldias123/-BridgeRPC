@@ -1,0 +1,16 @@
+{
+  "name": "bridgerpc",
+  "private": true,
+  "type": "module",
+  "packageManager": "bun@latest",
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "omni": "tsx packages/cli/src/index.ts",
+    "check": "tsx packages/cli/src/index.ts check",
+    "generate": "tsx packages/cli/src/index.ts generate"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
